@@ -1,0 +1,41 @@
+.Slider {
+    
+    margin: 0 auto;
+  }
+  
+  .Slider-featuredImage {
+    padding: 4px
+  }
+  
+  .Slider-thumbnails {
+    width: 100%;
+    overflow: scroll;
+    margin-top: 4px;
+    padding: 4px;
+    margin-right: 16px;
+  }
+  
+  .Slider-thumbnail {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .Slider-thumbnail img {
+    width: 100px;
+  }
+  
+  .Slider-thumbnail .active {
+    opacity: 1;
+  }
+  
+  .Slider-thumbnail:hover,
+  .Slider-thumbnail:active,
+  .Slider-thumbnail:focus {
+    opacity: 1;
+    background-color: rgba(200, 200, 200, .5);
+    outline-offset: 2px;
+  }
+  
+  .Slider-thumbnail:not(:first-of-type) {
+    margin-left: 10px;
+  }
